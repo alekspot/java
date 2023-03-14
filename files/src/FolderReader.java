@@ -3,7 +3,11 @@ public class FolderReader {
     private static int count = 0;
 
     public static void main(String[] args) {
+<<<<<<< HEAD
         String path = "C:\\Windows";
+=======
+        String path = "C:\\Users\\user\\Desktop\\dz\\learn\\files";
+>>>>>>> github/master
         File dir = new File(path);
         System.out.printf("-------------- %s ---------------\n", path);
 
@@ -18,10 +22,13 @@ public class FolderReader {
         } else {
             File[] files = file.listFiles();
 
+<<<<<<< HEAD
             if(files == null) {
                 return;
             }
 
+=======
+>>>>>>> github/master
             for (int i = 0; i < files.length; i++) {
                 boolean isFile = files[i].isFile();
 
